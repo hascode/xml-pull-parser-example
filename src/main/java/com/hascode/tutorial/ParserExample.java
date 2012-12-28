@@ -11,7 +11,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
 public class ParserExample {
-	private static final String urlString = "https://jira.atlassian.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=&tempMax=200";
+	private static final String urlString = "https://jira.atlassian.com/sr/jira.issueviews:searchrequest-xml/temp/SearchRequest.xml?jqlQuery=&tempMax=20";
 	private static final String ITEM_TITLE = "title";
 	private static final String ITEM_LINK = "link";
 
